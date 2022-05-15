@@ -1,11 +1,9 @@
 package ofendercliapp;
 
-import java.util.Arrays;
-
 /**
  *
  * @author Eron Alves
- * This class initialize the simple ofender
+ * This class initialize the simple ofender App
  */
 public class OfenderCLIApp {
 
@@ -21,6 +19,7 @@ public class OfenderCLIApp {
             else if (offense.equals("-m")) System.out.println("Motherfucker");
             else if (offense.equals("-i")) System.out.println("Idiot");
             else if (offense.equals("-s")) System.out.println("Suck my dick!!");
+            else System.out.println("Invalid offense. Why are you so stupid!");
         }
     }
     
