@@ -31,22 +31,24 @@ Você é xingado novamente!!
 
 Navegue até a pasta que foi clonada.
 
-Você tem duas opções:
-
-1. Executar pelo .class
+Navegue até a pasta onde está o código fonte:
 
 ``````bash
-cd build/classes
-java ofendercliapp/OfenderCliApp [...args]
-``````
 
-2. Executar pelo .jar
+cd src/ofendercliapp
+``````
+Será necessário rodar a compilação para o arquivo .java.
 
 ``````bash
-cd dist
-java -jar ofenderCliApp.jar [...args]
-``````
 
+javac OfenderCLIApp.java
+``````
+Agora, basta executar, com adendo de que há um header de package no código-fonte, então basta subir uma pasta e executar:
+
+``````bash
+
+java ofendercliapp/OfenderCLIApp [...Args]
+``````
 ## Palavra Final
 
 Divirta-se!!
