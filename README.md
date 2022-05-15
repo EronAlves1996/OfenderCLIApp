@@ -47,7 +47,7 @@ Agora, basta executar, com adendo de que há um header de package no código-fon
 
 ``````bash
 cd ..
-java ofendercliapp/OfenderCLIApp [...Args]
+java ofendercliapp.OfenderCLIApp [...Args]
 ``````
 ## Palavra Final
 
