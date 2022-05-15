@@ -46,7 +46,7 @@ javac OfenderCLIApp.java
 Agora, basta executar, com adendo de que há um header de package no código-fonte, então basta subir uma pasta e executar:
 
 ``````bash
-
+cd ..
 java ofendercliapp/OfenderCLIApp [...Args]
 ``````
 ## Palavra Final
