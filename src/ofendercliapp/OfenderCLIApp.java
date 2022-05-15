@@ -17,6 +17,10 @@ public class OfenderCLIApp {
         for (String offense : args) {
             if (offense.equals("-f")) System.out.println("Fuck you");
             else if (offense.equals("-a")) System.out.println("Asshole");
+            else if (offense.equals("-b")) System.out.println("Bastard");
+            else if (offense.equals("-m")) System.out.println("Motherfucker");
+            else if (offense.equals("-i")) System.out.println("Idiot");
+            else if (offense.equals("-s")) System.out.println("Suck my dick!!");
         }
     }
     
